@@ -62,8 +62,8 @@ If no custom colors are required, you can pass an instance of the class "Default
 ```java
 package io.github.zeront4e.apps.hjw;
 
-import theme.io.github.zeront4e.ejg.ThemeManager;
-import colors.theme.io.github.zeront4e.ejg.DefaultThemeColorsProvider;
+import io.github.zeront4e.ejg.theme.ThemeManager;
+import io.github.zeront4e.ejg.theme.colors.DefaultThemeColorsProvider;
 import javafx.application.Application;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
@@ -98,9 +98,9 @@ ThemeManager with custom colors (class "CustomThemeColorsProvider"):
 ```java
 package io.github.zeront4e.apps.hjw;
 
-import theme.io.github.zeront4e.ejg.ThemeManager;
-import colors.theme.io.github.zeront4e.ejg.DefaultThemeColorsProvider;
-import colors.theme.io.github.zeront4e.ejg.ThemeColor;
+import io.github.zeront4e.ejg.theme.ThemeManager;
+import io.github.zeront4e.ejg.theme.colors.DefaultThemeColorsProvider;
+import io.github.zeront4e.ejg.theme.colors.ThemeColor;
 import javafx.application.Application;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
@@ -149,7 +149,7 @@ package io.github.zeront4e.apps.hjw;
 import io.github.zeront4e.apps.hjw.controllers.HelloWorldGuiController;
 import io.github.zeront4e.ejg.controllers.*;
 import io.github.zeront4e.ejg.theme.ThemeManager;
-import colors.theme.io.github.zeront4e.ejg.DefaultThemeColorsProvider;
+import io.github.zeront4e.ejg.theme.colors.DefaultThemeColorsProvider;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -204,10 +204,10 @@ Content of the file "HelloWorldGuiController.java":
 ```java
 package io.github.zeront4e.apps.hjw.controllers;
 
-import controllers.io.github.zeront4e.ejg.GuiController;
-import controllers.io.github.zeront4e.ejg.InstanceConsumer;
-import theme.io.github.zeront4e.ejg.ThemeManager;
-import colors.theme.io.github.zeront4e.ejg.DefaultThemeColorsProvider;
+import io.github.zeront4e.ejg.controllers.GuiController;
+import io.github.zeront4e.ejg.controllers.InstanceConsumer;
+import io.github.zeront4e.ejg.theme.ThemeManager;
+import io.github.zeront4e.ejg.theme.colors.DefaultThemeColorsProvider;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
@@ -284,7 +284,7 @@ package io.github.zeront4e.apps.hjw;
 import io.github.zeront4e.apps.hjw.controllers.HelloWorldGuiController;
 import io.github.zeront4e.ejg.controllers.*;
 import io.github.zeront4e.ejg.theme.ThemeManager;
-import colors.theme.io.github.zeront4e.ejg.DefaultThemeColorsProvider;
+import io.github.zeront4e.ejg.theme.colors.DefaultThemeColorsProvider;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -338,11 +338,11 @@ Content of the file "HelloWorldGuiController.java":
 ```java
 package io.github.zeront4e.apps.hjw.controllers;
 
-import controllers.io.github.zeront4e.ejg.GuiController;
-import controllers.io.github.zeront4e.ejg.InstanceConsumer;
-import theme.io.github.zeront4e.ejg.ThemeManager;
-import colors.theme.io.github.zeront4e.ejg.DefaultDarkThemeColorSourceProvider;
-import colors.theme.io.github.zeront4e.ejg.DefaultThemeColorsProvider;
+import io.github.zeront4e.ejg.controllers.GuiController;
+import io.github.zeront4e.ejg.controllers.InstanceConsumer;
+import io.github.zeront4e.ejg.theme.ThemeManager;
+import io.github.zeront4e.ejg.theme.colors.DefaultDarkThemeColorSourceProvider;
+import io.github.zeront4e.ejg.theme.colors.DefaultThemeColorsProvider;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
@@ -436,7 +436,7 @@ package io.github.zeront4e.apps.hjw;
 import io.github.zeront4e.apps.hjw.controllers.HelloWorldGuiController;
 import io.github.zeront4e.ejg.controllers.*;
 import io.github.zeront4e.ejg.theme.ThemeManager;
-import colors.theme.io.github.zeront4e.ejg.DefaultThemeColorsProvider;
+import io.github.zeront4e.ejg.theme.colors.DefaultThemeColorsProvider;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -516,10 +516,10 @@ Content of the file "HelloWorldGuiController.java":
 ```java
 package io.github.zeront4e.apps.hjw.controllers;
 
-import controllers.io.github.zeront4e.ejg.GuiController;
-import controllers.io.github.zeront4e.ejg.InstanceConsumer;
-import theme.io.github.zeront4e.ejg.ThemeManager;
-import colors.theme.io.github.zeront4e.ejg.DefaultThemeColorsProvider;
+import io.github.zeront4e.ejg.controllers.GuiController;
+import io.github.zeront4e.ejg.controllers.InstanceConsumer;
+import io.github.zeront4e.ejg.theme.ThemeManager;
+import io.github.zeront4e.ejg.theme.colors.DefaultThemeColorsProvider;
 import javafx.fxml.FXML;
 import javafx.scene.image.ImageView;
 import javafx.scene.shape.Polygon;

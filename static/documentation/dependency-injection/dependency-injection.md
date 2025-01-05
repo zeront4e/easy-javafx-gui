@@ -76,8 +76,8 @@ Content of the file "HelloWorldGuiController.java":
 package io.github.zeront4e.apps.hjw.controllers;
 
 import io.github.zeront4e.apps.hjw.AppConfigurationProperties;
-import controllers.io.github.zeront4e.ejg.GuiController;
-import controllers.io.github.zeront4e.ejg.InstanceConsumer;
+import io.github.zeront4e.ejg.controllers.GuiController;
+import io.github.zeront4e.ejg.controllers.InstanceConsumer;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;

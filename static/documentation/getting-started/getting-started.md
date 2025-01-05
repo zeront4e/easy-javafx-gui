@@ -65,7 +65,7 @@ Content of the file "HelloWorldGuiController.java":
 ```java
 package io.github.zeront4e.apps.hjw.controllers;
 
-import controllers.io.github.zeront4e.ejg.GuiController;
+import io.github.zeront4e.ejg.controllers.GuiController;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
@@ -151,10 +151,10 @@ Content of the file "Main.java":
 package io.github.zeront4e.apps.hjw;
 
 import io.github.zeront4e.apps.hjw.controllers.HelloWorldGuiController;
-import controllers.io.github.zeront4e.ejg.ControllerInitializationException;
-import controllers.io.github.zeront4e.ejg.DependencyInjectionException;
-import controllers.io.github.zeront4e.ejg.GuiConfiguration;
-import controllers.io.github.zeront4e.ejg.GuiControllerManager;
+import io.github.zeront4e.ejg.controllers.ControllerInitializationException;
+import io.github.zeront4e.ejg.controllers.DependencyInjectionException;
+import io.github.zeront4e.ejg.controllers.GuiConfiguration;
+import io.github.zeront4e.ejg.controllers.GuiControllerManager;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
